@@ -1,8 +1,10 @@
 :root {
     /* Colores */
     --azul-principal: #2a7ae4;
+    --azul-claro: #EAF2FD;
     --blanco: #FFFF;
     --gris-principal: #464646;
+    --gris-claro:#A2A2A2;
 
     /* Fuentes */
     --raleway: 'Raleway', sans-serif;
@@ -22,7 +24,7 @@
 }
 
 .nav_logo {
-    width: 30%;
+    width: 100px;
     margin-left: 15px;
 }
 .nav_login {

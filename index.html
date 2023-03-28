@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/navegador.css">
     <link rel="stylesheet" href="./assets/css/portada.css">
     <link rel="stylesheet" href="./assets/css/cards/cards.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
     <title>Challenge AluraGeek Camilo Gaviño</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
     </header>
     <!-- Foto portal  -->
     <div class="noticia_principal">
-            <img class="noticia_principal__foto" src="./assets/img/Foto_portada.jpg" alt="Foto portada">
+            <div class="noticia_principal__foto" alt="Foto portada"></div>
             <h2 class="noticia_principal__titulo">Febrero Promocional</h2>
             <p class="noticia_principal__descripcion">Productos selecionados con 33% de descuento</p>
             <button href="" class="noticia_principal__boton">Ver Consolas</button>
@@ -125,6 +126,26 @@
                 <a href="" class="producto-verproducto">Ver producto</a>
             </div>
         </div>
+    </div>
+    <!-- Section "Quienes somos"  con input para Contacto-->
+    <footer class="footer">
+        <img src="./assets/img/Logo.svg" alt="Logo AluraGeek" class="nav_logo">
+        <p class="footer-seeciones">Quienes somos</p>
+        <p class="footer-seeciones">Política de privacidad</p>
+        <p class="footer-seeciones">Programa de fidelidad</p>
+        <p class="footer-seeciones">Nuestras tiendas</p>
+        <p class="footer-seeciones">Quiero ser franquiciado</p>
+        <p class="footer-seeciones">Anúncie aquí</p>
+        <div class="container_inputs">
+            <h3 class="footer-titulo__input">Hable con nosotros</h3>
+            <p class="footer_input"">Nombre</p>
+            <input type="text" id="asunto" class="footer-input__asunto" placeholder="Nombre" value="André Lisboa">
+            <input type="text" class="footer-input__cuerpo" placeholder="Escribe tu mensaje">
+            <button class="footer-button__enviar">Enviar mensaje</button>
+        </div>
+    </footer>
+    <div class="container_made_nombre">
+        <p class="made_nombre">Desarrollado por Camilo Gaviño 🫶 2023</p>
     </div>
 </body>
 </html>
